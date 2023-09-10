@@ -1,0 +1,133 @@
+$grid-gutter-width: 0px;
+
+@import './colors';
+@import './components';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62, 5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Rouge Script', cursive;
+	font-size: 1.6rem;
+}
+
+// NAV
+.nav-link {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.75rem;
+	color: $dark;
+	transition: color 0.3s;
+
+	&hover {
+		color: $pink;
+	}
+}
+
+// HEADER
+
+.header {
+	width: 100%;
+	background-image: url(/img/img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+// ABOUTUS
+
+.aboutUs-img {
+	width: 100%;
+}
+
+.aboutUs-btn,
+.offer-btn {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.75rem;
+	margin: 0;
+	padding: 12px 24px;
+	border: none;
+	background-color: $pink;
+	color: $white;
+	text-shadow: 1px 1px 1px #ff608a;
+	transition: background-color 0.3s;
+
+	&hover {
+		background-color: $light-pink;
+	}
+}
+
+// OFFER
+
+.card-title {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.75rem;
+	margin: 0;
+	text-align: center;
+}
+
+.card-text {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5rem;
+	margin: 0;
+	text-align: center;
+}
+
+.card-all {
+	padding: 30px;
+	margin: 0;
+}
+
+.card {
+	padding: 50px 50px;
+	box-shadow: 2px 2px $pistachio;
+}
+
+.cards {
+	padding: 40px 40px;
+}
+
+.card-body {
+padding: 20px 0 0 0;
+}
+
+.offer-btn {
+	margin: 30px 10px 10px 10px;
+	
+}
+
+// STUDIO
+
+.studio-btn {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.75rem;
+	margin: 0;
+	padding: 12px 24px;
+	border: none;
+	background-color: $pistachio;
+	color: $white;
+	text-shadow: 1px 1px 1px $dark-pistachio;
+	transition: background-color 0.3s;
+
+	&hover {
+		background-color: $light-pistachio;
+	}
+}
+
+// FOOTER
+
+.link {
+	text-decoration: none;
+	color: $black;
+}
