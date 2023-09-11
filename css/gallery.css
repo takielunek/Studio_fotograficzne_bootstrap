@@ -12031,7 +12031,7 @@ body {
 
 .header {
   width: 100%;
-  background-image: url(/img/index/img1.jpg);
+  background-image: url(/img/img1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -12044,107 +12044,60 @@ body {
   padding-top: 250px;
 }
 
-.header-text {
-  font-size: 2.5rem;
-  margin: 0;
-  text-align: center;
-  padding: 50px 0 150px;
-}
-
 @media (min-width: 768px) {
   .header-heading {
     font-size: 12.5rem;
   }
-  .header-text {
-    font-size: 3.75rem;
-  }
 }
-.aboutUs-img {
-  width: 100%;
-}
-
-.aboutUs-btn,
-.offer-btn {
-  font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
-  margin: 0;
-  padding: 12px 24px;
-  border: none;
-  background-color: #FDB4C8;
-  color: white;
-  text-shadow: 1px 1px 1px #ff608a;
-  transition: background-color 0.3s;
-}
-.aboutUs-btn:hover,
-.offer-btn:hover {
-  background-color: #fc89a7;
+/* ---- grid ---- */
+.grid {
+  background: white;
+  max-width: 1500px;
+  padding: 50px;
 }
 
-.line-bp {
+/* clearfix */
+.grid:after {
+  content: "";
   display: block;
+  clear: both;
 }
 
-@media (min-width: 992px) {
-  .line-bp {
-    display: none;
-  }
-}
-.card-title {
-  font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
-  margin: 0;
-  text-align: center;
-}
-
-.card-text {
-  font-family: "Inter", sans-serif;
-  font-size: 1.5rem;
-  margin: 0;
-  text-align: center;
+/* ---- grid-item ---- */
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  /* vertical gutter */
+  margin: 20px;
+  background: #D26;
+  border: 2px solid #333;
 }
 
-.card-all {
-  padding: 30px;
-  margin: 0;
+.grid-item--width2 {
+  width: 340px;
 }
 
-.card {
-  padding: 50px 50px;
-  box-shadow: 2px 2px #A8DF8E;
+.grid-item--width3 {
+  width: 520px;
 }
 
-.cards {
-  padding: 40px 40px;
+.grid-item--width4 {
+  width: 780px;
 }
 
-.card-body {
-  padding: 20px 0 0 0;
+.grid-item--height2 {
+  height: 200px;
 }
 
-.offer-btn {
-  margin: 30px 10px 10px 10px;
+.grid-item--height3 {
+  height: 260px;
 }
 
-.studio-btn {
-  font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
-  padding: 12px 24px;
-  border: none;
-  background-color: #A8DF8E;
-  color: white;
-  text-shadow: 1px 1px 1px #3ab104;
-  transition: background-color 0.3s;
-  display: none;
-}
-.studio-btn:hover {
-  background-color: #3ab104;
+.grid-item--height4 {
+  height: 360px;
 }
 
-@media (min-width: 576px) {
-  .studio-btn {
-    display: block;
-  }
-}
 .link {
   text-decoration: none;
   color: #000000;
@@ -12152,4 +12105,4 @@ body {
 }
 .link:hover {
   color: #3ab104;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=gallery.css.map */
