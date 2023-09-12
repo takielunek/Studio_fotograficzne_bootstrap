@@ -58,56 +58,47 @@ body {
 }
 
 
-// GALLERY
 
-.grid {
-	background: $white;
-	max-width: 1500px;
-	padding: 150px 3%;
-}
+// CONTACT
 
-.grid:after {
-	content: '';
-	display: block;
-	clear: both;
-}
-
-.grid-item1 {
-	width: 420px;
-	height: 594px;
-	margin: 20px;
-}
-.grid-item2 {
-	width: 594px;
-	height: 420px;
-	margin: 20px 40px;
-}
-
-.grid-item1,
-.grid-item2 {
-	&:hover {
-		scale: 0.95;
-	}
-}
-
-
-// MEDIA 
-
-.gallery-heading {
+.contact-heading {
 	font-family: 'Inter', sans-serif;
 	font-size: 2.25rem;
+	font-weight: bold;
 	text-align: center;
-	padding: 100px 10% ;
+	padding: 0px 10% 20px ;
+	margin: 0;
 }
 
-.media {
-	text-decoration: none;
-	font-size: 6rem;
+
+.contact-info {
+	font-family: 'Inter', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	padding: 100px 10% 100px ;
+	margin: 0;
 }
 
-.gallery-info {
+a {
+text-decoration: none;
+color: $dark;
+}
+
+
+
+.img-border {
 	border: 3px solid #A8DF8E;
-	margin: 0px 10% 150px;
+	margin: 100px 10%;
+	padding: 100px;
 	box-shadow: 10px 10px #e7fad2;
 }
+
+
+
+
+
+
+
+
+
 
