@@ -12039,7 +12039,7 @@ body {
   font-size: 8rem;
   margin: 0;
   color: #fc89a7;
-  text-shadow: 2px 2px 1px #ffffff;
+  text-shadow: 2px 2px 1px white;
   text-align: center;
   padding: 20px;
 }
@@ -12050,8 +12050,8 @@ body {
   }
 }
 .border {
-  border: 5px solid #A8DF8E;
-  margin: 100px 0;
+  border: 5px solid #fc89a7;
+  margin: 150px 0;
   padding: 100px;
   box-shadow: 10px 10px #e7fad2;
 }
@@ -12060,6 +12060,112 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 2.25rem;
   text-align: center;
-  padding: 300px 10%;
+  padding: 350px 10%;
   margin: 0;
+}
+
+.text-style {
+  color: #ff608a;
+  text-decoration: none;
+  font-size: 7rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.calendar {
+  font-family: "Inter", sans-serif;
+  padding: 150px 3%;
+}
+
+.month {
+  padding: 30px 25px;
+  width: 100%;
+  background: #FDB4C8;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: #212529;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.prev {
+  padding-top: 25px;
+  float: left;
+}
+
+.next {
+  padding-top: 25px;
+  float: right;
+}
+
+.weekdays {
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  color: #212529;
+}
+
+.inactive {
+  color: #777;
+}
+
+.active {
+  padding: 10px;
+  background: #FDB4C8;
+  color: white;
+}
+
+.contact {
+  font-family: "Inter", sans-serif;
+  padding: 100px 3%;
+  font-size: 2rem;
+}
+
+.send-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  margin: 50px 40%;
+  width: 20%;
+  padding: 12px 24px;
+  border: none;
+  background-color: #FDB4C8;
+  color: white;
+  text-shadow: 1px 1px 1px #ff608a;
+  transition: background-color 0.3s;
+}
+.send-btn:hover {
+  background-color: #fc89a7;
 }/*# sourceMappingURL=schedule.css.map */
