@@ -12021,7 +12021,7 @@ body {
 
 .nav-link {
   font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #212529;
   transition: color 0.3s;
 }
@@ -12036,7 +12036,7 @@ body {
 }
 
 .header-heading {
-  font-size: 8rem;
+  font-size: 4rem;
   margin: 0;
   color: #fc89a7;
   text-shadow: 2px 2px 1px #ffffff;
@@ -12044,14 +12044,9 @@ body {
   padding: 20px;
 }
 
-@media (min-width: 768px) {
-  .header-heading {
-    font-size: 10rem;
-  }
-}
 .contact-heading {
   font-family: "Inter", sans-serif;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   padding: 0px 10% 20px;
@@ -12060,7 +12055,7 @@ body {
 
 .contact-info {
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 100px 10% 100px;
   margin: 0;
@@ -12073,7 +12068,35 @@ a {
 
 .img-border {
   border: 3px solid #A8DF8E;
-  margin: 100px 10%;
-  padding: 100px;
+  margin: 50px 10%;
+  padding: 20px;
   box-shadow: 10px 10px #e7fad2;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    font-size: 1.75em;
+  }
+  .header-heading {
+    font-size: 8rem;
+  }
+  .img-border {
+    margin: 80px 10%;
+    padding: 40px;
+  }
+  .contact-heading {
+    font-size: 2.25rem;
+  }
+  .contact-info {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .header-heading {
+    font-size: 10rem;
+  }
+  .img-border {
+    margin: 100px 10%;
+    padding: 100px;
+  }
 }/*# sourceMappingURL=contact.css.map */

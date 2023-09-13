@@ -12021,7 +12021,7 @@ body {
 
 .nav-link {
   font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #212529;
   transition: color 0.3s;
 }
@@ -12036,7 +12036,7 @@ body {
 }
 
 .header-heading {
-  font-size: 8rem;
+  font-size: 4rem;
   margin: 0;
   color: #fc89a7;
   text-shadow: 2px 2px 1px #ffffff;
@@ -12044,15 +12044,10 @@ body {
   padding: 20px;
 }
 
-@media (min-width: 768px) {
-  .header-heading {
-    font-size: 10rem;
-  }
-}
 .grid {
   background: white;
   max-width: 1500px;
-  padding: 150px 3%;
+  padding: 30px 3%;
 }
 
 .grid:after {
@@ -12062,15 +12057,15 @@ body {
 }
 
 .grid-item1 {
-  width: 420px;
-  height: 594px;
+  width: 340px;
+  height: 514px;
   margin: 20px;
 }
 
 .grid-item2 {
-  width: 594px;
-  height: 420px;
-  margin: 20px 40px;
+  width: 340px;
+  height: 240px;
+  margin: 20px;
 }
 
 .grid-item1:hover,
@@ -12080,18 +12075,51 @@ body {
 
 .gallery-heading {
   font-family: "Inter", sans-serif;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   text-align: center;
-  padding: 100px 10%;
+  padding: 50px 10%;
 }
 
 .media {
   text-decoration: none;
-  font-size: 6rem;
+  font-size: 3rem;
 }
 
 .gallery-info {
   border: 3px solid #A8DF8E;
   margin: 0px 10% 150px;
   box-shadow: 10px 10px #e7fad2;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    font-size: 1.75rem;
+  }
+  .header-heading {
+    font-size: 8rem;
+  }
+  .gallery-heading {
+    font-size: 2.25rem;
+    padding: 100px 10%;
+  }
+  .media {
+    font-size: 6rem;
+  }
+  .grid {
+    padding: 150px 3%;
+  }
+  .grid-item1 {
+    width: 420px;
+    height: 594px;
+  }
+  .grid-item2 {
+    width: 594px;
+    height: 420px;
+    margin: 20px 40px;
+  }
+}
+@media (min-width: 768px) {
+  .header-heading {
+    font-size: 10rem;
+  }
 }/*# sourceMappingURL=gallery.css.map */

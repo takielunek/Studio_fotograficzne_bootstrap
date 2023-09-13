@@ -12021,7 +12021,7 @@ body {
 
 .nav-link {
   font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #212529;
   transition: color 0.3s;
 }
@@ -12051,14 +12051,6 @@ body {
   padding: 50px 0 150px;
 }
 
-@media (min-width: 768px) {
-  .header-heading {
-    font-size: 12.5rem;
-  }
-  .header-text {
-    font-size: 3.75rem;
-  }
-}
 .aboutUs-img {
   width: 100%;
 }
@@ -12066,13 +12058,13 @@ body {
 .aboutUs-btn,
 .offer-btn {
   font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
-  margin: 0;
+  font-size: 1.5rem;
   padding: 12px 24px;
   border: none;
   background-color: #FDB4C8;
   color: white;
   text-shadow: 1px 1px 1px #ff608a;
+  margin-left: 6%;
   transition: background-color 0.3s;
 }
 .aboutUs-btn:hover,
@@ -12084,15 +12076,10 @@ body {
   display: block;
 }
 
-@media (min-width: 992px) {
-  .line-bp {
-    display: none;
-  }
-}
 .card-title {
   font-family: "Inter", sans-serif;
   font-size: 1.75rem;
-  margin: 0;
+  margin: 0 0 20px 0;
   text-align: center;
 }
 
@@ -12104,12 +12091,12 @@ body {
 }
 
 .card-all {
-  padding: 30px;
+  padding: 10px;
   margin: 0;
 }
 
 .card {
-  padding: 50px 50px;
+  padding: 20px;
   box-shadow: 2px 2px #A8DF8E;
 }
 
@@ -12123,6 +12110,21 @@ body {
 
 .offer-btn {
   margin: 30px 10px 10px 10px;
+}
+
+.border {
+  border: none;
+  padding: 0;
+}
+
+.studio-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  display: block;
+}
+
+.fa-angle-right {
+  color: #fc89a7;
 }
 
 .studio-btn {
@@ -12140,16 +12142,86 @@ body {
   background-color: #3ab104;
 }
 
-@media (min-width: 576px) {
-  .studio-btn {
-    display: block;
-  }
-}
 .link {
+  font-family: "Rouge Script", cursive;
+  font-size: 2rem;
+  margin: 0;
   text-decoration: none;
   color: #000000;
   transition: color 0.3s;
 }
 .link:hover {
   color: #3ab104;
+}
+
+.link-heading {
+  font-size: 1.25rem;
+}
+
+.footer-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    font-size: 1.75rem;
+  }
+  .aboutUs-btn {
+    margin-left: 50%;
+  }
+  .aboutUs-btn,
+  .offer-btn {
+    font-size: 1.75rem;
+    padding: 12px 24px;
+  }
+  .card-all {
+    padding: 30px;
+    margin: 0;
+  }
+  .card {
+    padding: 50px;
+  }
+  .border {
+    border: 3px solid #fdb4c8;
+    padding: 50px;
+    box-shadow: 10px 10px #fae8e6;
+  }
+  .studio-btn {
+    display: block;
+  }
+  .studio-text {
+    display: none;
+  }
+  .link {
+    font-size: 2.5rem;
+  }
+  .link-heading {
+    font-size: 1.75rem;
+  }
+  .footer-text {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .header-heading {
+    font-size: 12.5rem;
+  }
+  .header-text {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .line-bp {
+    display: none;
+  }
+  .aboutUs-btn {
+    margin-left: 50%;
+  }
+  .aboutUs-btn,
+  .offer-btn {
+    font-size: 1.75rem;
+    padding: 12px 24px;
+  }
 }/*# sourceMappingURL=main.css.map */

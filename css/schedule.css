@@ -12021,7 +12021,7 @@ body {
 
 .nav-link {
   font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #212529;
   transition: color 0.3s;
 }
@@ -12036,7 +12036,7 @@ body {
 }
 
 .header-heading {
-  font-size: 8rem;
+  font-size: 4rem;
   margin: 0;
   color: #fc89a7;
   text-shadow: 2px 2px 1px white;
@@ -12044,30 +12044,37 @@ body {
   padding: 20px;
 }
 
-@media (min-width: 768px) {
-  .header-heading {
-    font-size: 10rem;
-  }
+.schedule-heading1 {
+  font-family: "Rouge Script", cursive;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 80px;
 }
+
 .border {
   border: 5px solid #fc89a7;
-  margin: 150px 0;
-  padding: 100px;
+  margin: 80px 2%;
+  padding: 40px;
   box-shadow: 10px 10px #e7fad2;
 }
 
-.schedule-heading {
+.schedule-heading2 {
   font-family: "Inter", sans-serif;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   text-align: center;
-  padding: 350px 10%;
+  padding: 80px 10%;
   margin: 0;
 }
 
 .text-style {
   color: #ff608a;
   text-decoration: none;
-  font-size: 7rem;
+  font-size: 5rem;
+}
+
+.schedule-text {
+  font-size: 4rem;
+  text-align: center;
 }
 
 ul {
@@ -12076,7 +12083,7 @@ ul {
 
 .calendar {
   font-family: "Inter", sans-serif;
-  padding: 150px 3%;
+  padding: 80px 0;
 }
 
 .month {
@@ -12093,7 +12100,7 @@ ul {
 
 .month ul li {
   color: #212529;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -12134,7 +12141,7 @@ ul {
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #212529;
 }
 
@@ -12157,8 +12164,8 @@ ul {
 .send-btn {
   font-family: "Inter", sans-serif;
   font-size: 2rem;
-  margin: 50px 40%;
-  width: 20%;
+  margin: 50px 20%;
+  width: 60%;
   padding: 12px 24px;
   border: none;
   background-color: #FDB4C8;
@@ -12168,4 +12175,50 @@ ul {
 }
 .send-btn:hover {
   background-color: #fc89a7;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    font-size: 1.75rem;
+  }
+  .header-heading {
+    font-size: 8rem;
+  }
+  .schedule-heading1 {
+    font-size: 6rem;
+    padding-top: 150px;
+  }
+  .border {
+    margin: 150px 0;
+    padding: 100px;
+  }
+  .schedule-heading2 {
+    font-size: 2.25rem;
+    padding: 350px 10%;
+  }
+  .text-style {
+    font-size: 7rem;
+  }
+  .calendar {
+    padding: 150px 3%;
+  }
+  .month ul li {
+    font-size: 2.5rem;
+  }
+  .days li {
+    font-size: 2rem;
+  }
+  .send-btn {
+    margin: 50px 20%;
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  .header-heading {
+    font-size: 10rem;
+  }
+  .send-btn {
+    margin: 50px 40%;
+    width: 20%;
+  }
 }/*# sourceMappingURL=schedule.css.map */

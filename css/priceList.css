@@ -12021,7 +12021,7 @@ body {
 
 .nav-link {
   font-family: "Inter", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #212529;
   transition: color 0.3s;
 }
@@ -12036,7 +12036,7 @@ body {
 }
 
 .header-heading {
-  font-size: 8rem;
+  font-size: 4rem;
   margin: 0;
   color: #fc89a7;
   text-shadow: 2px 2px 1px #ffffff;
@@ -12044,36 +12044,42 @@ body {
   padding: 20px;
 }
 
-@media (min-width: 768px) {
-  .header-heading {
-    font-size: 10rem;
-  }
-}
 .price-heading {
   font-family: "Inter", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 50px;
   text-align: center;
 }
 
+.price-img {
+  padding: 30px 10%;
+}
+
 .price-info {
-  border: 3px solid #A8DF8E;
-  margin: 100px 10%;
+  border: 3px solid #a8df8e;
+  margin: 50px 10%;
   box-shadow: 10px 10px #e7fad2;
+}
+
+.price-text {
+  color: #ff608a;
+  text-decoration: none;
+  font-size: 4.5rem;
+  padding: 0;
 }
 
 .table-striped {
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .priceList {
-  padding: 100px 10%;
+  padding: 100px 0px;
 }
 
 .price-btn {
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 12px 30px;
   border: none;
   background-color: #A8DF8E;
@@ -12083,4 +12089,47 @@ body {
 }
 .price-btn:hover {
   background-color: #3ab104;
+}
+
+.price-button {
+  padding: 0px 13% 80px;
+}
+
+@media (min-width: 576px) {
+  .nav-link {
+    font-size: 1.75rem;
+  }
+  .header-heading {
+    font-size: 8rem;
+  }
+  .price-heading {
+    font-size: 2.5rem;
+  }
+  .price-img {
+    padding: 100px 20%;
+  }
+  .price-info {
+    margin: 100px 10%;
+  }
+  .price-text {
+    font-size: 12rem;
+  }
+  .table-striped {
+    font-size: 2rem;
+  }
+  .priceList {
+    padding: 100px 10%;
+  }
+  .price-btn {
+    font-size: 2rem;
+    padding: 12px 30px;
+  }
+  .price-button {
+    padding: 0px 36% 100px;
+  }
+}
+@media (min-width: 768px) {
+  .header-heading {
+    font-size: 10rem;
+  }
 }/*# sourceMappingURL=priceList.css.map */

@@ -1,9 +1,7 @@
 $grid-gutter-width: 0px;
-
 @import './colors';
 @import './components';
 @import '../node_modules/bootstrap/scss/bootstrap';
-
 *,
 *::before,
 *::after {
@@ -11,81 +9,69 @@ $grid-gutter-width: 0px;
 	margin: 0;
 	padding: 0;
 }
-
 html {
 	font-size: 62, 5%;
 	scroll-behavior: smooth;
 }
-
 body {
 	font-family: 'Inter', sans-serif;
 	font-family: 'Rouge Script', cursive;
 }
-
 // NAV
 .nav-link {
 	font-family: 'Inter', sans-serif;
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	color: $dark;
 	transition: color 0.3s;
-
 	&:hover {
 		color: $dark-pink;
 	}
 }
-
 // HEADER
-
 .header {
 	width: 100%;
 	background-position: center;
 	background-size: cover;
 }
-
 .header-heading {
-	font-size: 8rem;
+	font-size: 4rem;
 	margin: 0;
 	color: $dark-pink;
 	text-shadow: 2px 2px 1px #ffffff;
 	text-align: center;
 	padding: 20px;
 }
-
-@include media-breakpoint-up(md) {
-	.header-heading {
-		font-size: 10rem;
-	}
-}
-
 .price-heading {
 	font-family: 'Inter', sans-serif;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	margin-bottom: 50px;
 	text-align: center;
 }
-
+.price-img{
+	padding: 30px 10%;
+}
 .price-info {
-	border: 3px solid #A8DF8E;
-	margin: 100px 10%;
+	border: 3px solid #a8df8e;
+	margin: 50px 10%;
 	box-shadow: 10px 10px #e7fad2;
 }
-
+.price-text {
+	color: #ff608a;
+	text-decoration: none;
+	font-size: 4.5rem;
+	padding: 0;
+}
 // PRICES
-
 .table-striped {
 	font-family: 'Inter', sans-serif;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
-
 .priceList {
-	padding: 100px 10%;
+	padding: 100px 0px;
 }
-
-
-
 .price-btn {
 	font-family: 'Inter', sans-serif;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	padding: 12px 30px;
 	border: none;
 	background-color: $pistachio;
@@ -96,6 +82,47 @@ body {
 		background-color: $dark-pistachio;
 	}
 }
-
-
-
+.price-button {
+	padding: 0px 13% 80px
+}
+// MEDIA
+@include media-breakpoint-up(sm) {
+	.nav-link {
+		font-size: 1.75rem;
+	}
+	.header-heading {
+		font-size: 8rem;
+	}
+	.price-heading {
+		font-size: 2.5rem;
+	}
+	.price-img{
+		padding: 100px 20%;
+	}
+	.price-info {
+		margin: 100px 10%;
+	}
+	.price-text{
+	font-size: 12rem;
+	}
+	.table-striped {
+		font-size: 2rem;
+	}
+	
+	.priceList {
+		padding: 100px 10%;
+	}
+	.price-btn {
+		font-size: 2rem;
+		padding: 12px 30px;
+	
+	}
+	.price-button {
+		padding: 0px 36% 100px
+	}
+}
+@include media-breakpoint-up(md) {
+	.header-heading {
+		font-size: 10rem;
+	}
+}
