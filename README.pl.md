@@ -26,7 +26,7 @@ Strona internetowa stworzona w celu indywidualnej praktyki.
 
 <br/>
 <p align="center">
-  <img width="600" src="img/screen1.png">
+  <img width="600" src="img/readme/screen1.png">
 </p>
 <br/>
 
@@ -34,7 +34,7 @@ Strona internetowa stworzona w celu indywidualnej praktyki.
 
 <br/>
 <p align="center">
-  <img width="650" src="img/screen2.png">
+  <img width="650" src="img/readme/screen2.png">
 </p>
 <br/>
 
