@@ -71,11 +71,9 @@ body {
 	text-align: center;
 }
 // CALENDAR
-
 .calendar-box {
 	box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
   }
-  
   .month {
 	width: 100%;
 	height: 12rem;
@@ -86,25 +84,20 @@ body {
 	align-items: center;
 	padding: 0 2rem;
 	text-align: center;
-
   }
-  
   .month i {
 	font-size: 2.5rem;
 	cursor: pointer;
   }
-  
   .month h1 {
 	font-size: 3rem;
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
   }
-  
   .month p {
 	font-size: 1.6rem;
   }
-  
   .weekdays {
 	width: 100%;
 	height: 5rem;
@@ -114,7 +107,6 @@ body {
 	align-items: center;
 	background-color: $grey2;
   }
-  
   .weekdays div {
 	font-size: 1.5rem;
 	font-weight: 400;
@@ -123,9 +115,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
   }
-  
   .days {
 	width: 100%;
 	display: flex;
@@ -133,38 +123,29 @@ body {
 	padding: 0.2rem;
 	background-color: $grey1;
   }
-  
   .days div {
 	font-family: 'Inter', sans-serif;
 	font-size: 1.4rem;
-	
 	margin: 0.3rem;
 	width: calc(85.2rem / 7);
 	height: 5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	transition: background-color 0.2s;
   }
-  
   .days div:hover:not(.today) {
-	
 	border: 0.2rem solid $grey2;
 	cursor: pointer;
   }
-  
   .prev-date,
   .next-date {
 	opacity: 0.5;
   }
-  
   .today {
 	background-color: $pink;
 	border: 0.2rem solid $grey2;
   }
-
-
 // CONTACT
 .contact {
 	font-family: 'Inter', sans-serif;
