@@ -10,6 +10,8 @@
 ## Informacje ogólne
 Strona internetowa stworzona w celu indywidualnej praktyki.
 
+Link do strony: https://34-studio-fotograficzne-bootstrap-2u4a8utz5-takielunek.vercel.app/
+
 ## Użyte technologie
 * HTML
 * CSS
